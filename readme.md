@@ -20,7 +20,7 @@ TODO: Exercise
 
 ## History
 
-TODO: Hstory
+TODO: History
 
 ## Credits
 
