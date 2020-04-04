@@ -20,7 +20,7 @@ TODO: Exercise
 
 ## History
 
-TODO: Suspended
+TODO: 2020
 
 ## Credits
 
