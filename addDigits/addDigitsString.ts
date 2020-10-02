@@ -1,6 +1,6 @@
-function addDigitsjs(num) {
+function addDigitsString(num: number): number {
     const n = num.toString().split('');
     return parseInt(n[0])+parseInt(n[1]);
 }
 
-console.log(addDigitsjs(27));
+console.log(addDigitsString(27));

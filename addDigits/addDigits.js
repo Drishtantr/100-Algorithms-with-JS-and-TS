@@ -4,4 +4,4 @@ function addDigitsjs(num) {
     return fir+sec;
 }
 
-console.log(addDigitsjs(99))
+console.log(addDigitsjs(99));
