@@ -1,10 +1,8 @@
-function longestStringjs(a) {
+function longestString(a: string[]): string[] {
     var longest = 0;
     var longString = [];
     a.forEach(word => {
-        if (word.length>longest) {
-            longest = word.length;
-        }
+        longest = word.length > longest ? word.length : longest;
     });
     a.forEach(word => {
         if (word.length===longest) {
@@ -15,4 +13,4 @@ function longestStringjs(a) {
     return longString;
 }
 
-console.log(longestStringjs(['aaa','a','cat','no']));
+console.log(longestString(['aaa','a','cat','no']));
