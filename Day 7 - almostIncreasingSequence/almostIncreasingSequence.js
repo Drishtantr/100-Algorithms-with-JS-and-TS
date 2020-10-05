@@ -3,7 +3,7 @@ function almostIncreasingSequence(a) {
     for(var i = 0; i<a.length; i++) {
         if (a[i]<=a[i-1]){
             count++;
-            if(a[i] <= a[i-2 && a[i+1] <= a[i-1]]){
+            if(a[i] <= a[i-2] && a[i+1] <= a[i-1]){
                 return false;
             }
         }
