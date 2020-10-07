@@ -9,8 +9,8 @@ function alphabetSubSequence(s) {
     return c===s.length-1;
 }
 
-console.log(alphabetSubSequence('zab'))
-console.log(alphabetSubSequence('effg'))
-console.log(alphabetSubSequence('cdce'))
-console.log(alphabetSubSequence('ace'))
-console.log(alphabetSubSequence('bxz'))
+console.log(alphabetSubSequence('zab'));
+console.log(alphabetSubSequence('effg'));
+console.log(alphabetSubSequence('cdce'));
+console.log(alphabetSubSequence('ace'));
+console.log(alphabetSubSequence('bxz'));
