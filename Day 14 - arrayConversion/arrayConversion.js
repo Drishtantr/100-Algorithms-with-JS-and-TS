@@ -1,10 +1,30 @@
 function arrayConversion(a) {
-    var arr = [];
-    for (var i=0; i<a.length; i++) {
-        if (i%2 === 0){
-            var sum = a[i] + a[i+1];
-        }
+    let isOdd = true;
+
+    while (a.length !== 1) {
+        a = sumProduct(a, isOdd);
+        isOdd = !isOdd;
     }
+
+    return a[0];
 };
 
-console.log(arrayConversion([1,2,3,4,5,6,7,8]));
+function sumProduct(num, isOdd) {
+    const sumProd = [];
+
+    if(isOdd) {
+        for(i=0; i<num.length; i+=2) {
+            sumProd.push(num[i] + num[i+1]);
+        }
+    } else {
+        for(i=0; i<num.length; i+=2) {
+            sumProd.push(num[i] * num[i+1]);
+        }
+    }
+
+    return sumProd;
+}
+
+
+
+console.log(arrayConversion([1, 2, 3, 4, 5, 6, 7, 8]));
