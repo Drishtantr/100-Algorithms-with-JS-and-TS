@@ -13,11 +13,11 @@ function sumProduct(num, isOdd) {
     const sumProd = [];
 
     if(isOdd) {
-        for(i=0; i<num.length; i+=2) {
+        for(let i=0; i<num.length; i+=2) {
             sumProd.push(num[i] + num[i+1]);
         }
     } else {
-        for(i=0; i<num.length; i+=2) {
+        for(let i=0; i<num.length; i+=2) {
             sumProd.push(num[i] * num[i+1]);
         }
     }
