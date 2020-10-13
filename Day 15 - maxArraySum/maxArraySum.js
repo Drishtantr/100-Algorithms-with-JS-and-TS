@@ -1,3 +1,4 @@
+//max sum of 2 consecutive elements
 function maxArraySum(a) {
     var max= a[0] + a[1];
     for (var i=0; i<a.length-1; i++) {
