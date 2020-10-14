@@ -1,4 +1,4 @@
-//max sum of 2 consecutive elements
+//max diff of 2 consecutive elements
 function maxArrayDiff(a) {
     var min= Math.abs(a[0] - a[1]);
     for (var i=0; i<a.length-1; i++) {
