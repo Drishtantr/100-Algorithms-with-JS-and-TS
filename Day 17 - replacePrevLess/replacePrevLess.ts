@@ -5,7 +5,7 @@ function replacePrevLessts(a: number[]): number[] {
         if (a[i]>a[i-1]) {
             b.push(a[i-1]);
         } else {
-            b.push(-1)
+            b.push(-1);
         };
     };
     return b;
