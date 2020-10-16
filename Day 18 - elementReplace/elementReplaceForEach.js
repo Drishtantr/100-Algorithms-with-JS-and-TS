@@ -1,7 +1,7 @@
 function elementReplace(a, ele, sub) {
     a.forEach((element, index) => {
         if(element === ele) {
-            a[index]=sub;
+            a[index] = sub;
         }
     });
     return a;

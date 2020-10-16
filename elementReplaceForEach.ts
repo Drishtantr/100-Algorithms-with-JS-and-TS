@@ -1,7 +1,7 @@
 function elementReplacefts(a: number[], ele: number, sub: number) {
     a.forEach((element, index) => {
         if(element === ele) {
-            a[index]=sub;
+            a[index] = sub;
         }
     });
     return a;

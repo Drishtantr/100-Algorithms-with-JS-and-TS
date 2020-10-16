@@ -1,7 +1,7 @@
 function elementReplace(a, ele, sub) {
     for(let i=0; i<a.length; i++) {
         if (a[i]===ele) {
-            a[i]=sub;
+            a[i] = sub;
         }
     }
     return a;
