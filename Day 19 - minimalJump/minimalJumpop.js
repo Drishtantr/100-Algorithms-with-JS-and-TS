@@ -5,7 +5,7 @@ function minimalJump(a) {
     
     for (let i=1; i<=larg+1; i++) {
         if (a.every((element) => (element % i) !== 0)) {
-            console.log(i);
+            return i;
         }  
     } 
 };
