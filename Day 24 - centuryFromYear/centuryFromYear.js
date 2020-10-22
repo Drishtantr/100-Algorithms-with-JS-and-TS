@@ -1,5 +1,5 @@
 function centuryFromYear(year) {
-    var century = year/100;
+    const century = year/100;
     if (year%100===0){
         return century;
     };
